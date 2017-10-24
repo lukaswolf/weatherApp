@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.lukaszwilk.weatherApp.controllers.Controller">
+   <children>
+      <Button fx:id="buttonSend" layoutX="238.0" layoutY="339.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="105.0" text="Wyslij" />
+      <TextField fx:id="tekstCity" layoutX="122.0" layoutY="255.0" prefHeight="50.0" prefWidth="337.0" />
+      <Label fx:id="Labeltext" layoutX="122.0" layoutY="53.0" prefHeight="128.0" prefWidth="405.0" text="Temp" textAlignment="CENTER" />
+      <ProgressIndicator fx:id="progresid" layoutX="179.0" layoutY="77.0" prefHeight="102.0" prefWidth="203.0" />
+      <Button fx:id="buttonWykresy" layoutX="459.0" layoutY="339.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="122.0" text="Wykresy" />
+   </children>
+</AnchorPane>
